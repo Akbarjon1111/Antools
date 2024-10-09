@@ -1,0 +1,135 @@
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popular h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  text-align: center;
+  color: #ffffff90;
+}
+
+.popular .popular-p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff55;
+  padding-top: 25px;
+}
+
+.popular-carts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.popular-cart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 392px;
+  height: 294px;
+  border-radius: 15px;
+  background: #1e252b;
+  padding: 33px;
+  transition: all 0.3s ease;
+}
+
+.cart-logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.cart-logo .logo-info h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #ffffff78;
+}
+
+.cart-logo .logo-info p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffa53755;
+  padding-top: 8px;
+}
+
+.popular-cart p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff55;
+}
+
+.cart-visit {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.cart-visit .visit-icons {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  gap: 15px;
+  font-size: 25px;
+  color: #ffffff38;
+}
+
+.cart-visit .visit-icons .heart-icon {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cart-visit .visit-icons .folder-icon {
+  cursor: pointer;
+}
+
+.cart-visit .visit-btn button {
+  padding: 10px 35px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff55;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.cart-visit .visit-btn button:hover {
+  background: #ff6e30;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.popular-btn {
+  width: 184px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid #ffffff1a;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ff6e30;
+  transition: all 0.3s ease;
+  margin-top: 100px;
+}
+
+.popular-btn:hover{
+    background: #ff6e30;
+    color: #ffffff;
+}

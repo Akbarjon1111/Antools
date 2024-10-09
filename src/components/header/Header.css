@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 26px 111px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.header .logo h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #FFFFFF90;
+}
+
+.header .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .nav ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF55;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header .nav ul li:hover {
+    color: #FF6E30;
+    text-shadow: 0px 0px 20px #FDF5FF;
+}
+
+.header .nav ul .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .header-btns {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .header-btns a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.header .header-btns a:hover{
+    border: 1px solid #FF6E30;
+    border-radius: 8px;
+    color: #fff;
+    background: #FF6E30;
+}
+
+.header .header-btns button {
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: #FF6E30;
+    color: #FDF5FF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header .header-btns button:hover{
+    background: none;
+    color: #FF6E30;
+    border: 1px solid #FF6E30;
+}

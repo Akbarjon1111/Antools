@@ -1,0 +1,39 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding: 200px 108px;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+
+.about-info .info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: #ffffff78;
+}
+
+.belgi {
+  font-size: 24px;
+  color: #ffffff28;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.belgi:hover {
+  color: #FF6E30;
+}
